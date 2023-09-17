@@ -1,0 +1,1 @@
+<iframe class="responsive-iframe" height="100%" width="100%" src="https://www.wwalliance.com/wwaonline/toolbox/shpglos/index.php?embed=true"></iframe>

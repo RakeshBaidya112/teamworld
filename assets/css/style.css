@@ -1,0 +1,1413 @@
+body {
+    font-family: 'Heebo', sans-serif !important;
+    color: #000000 !important;
+}
+
+nav {
+    background-color: #B18711;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.nav-item.dropdown {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    padding: 0 30px !important;
+}
+
+nav .navbar-nav li:not(:last-child) .nav-link {
+    border-right: 1px solid #fff;
+}
+
+
+.navbar-nav .dropdown-menu {
+    margin-top: 0px;
+    z-index: 99999;
+}
+
+.breadcrumbs {
+    margin-bottom: 90px;
+}
+
+.breadcrumbs ul li a {
+    color: #B18711;
+    position: relative;
+    text-decoration: underline;
+}
+
+.breadcrumbs ul li {
+    color: #151515;
+    font-weight: 500;
+    padding-right: 35px;
+}
+
+.breadcrumbs ul li a:after {
+    content: '';
+    position: absolute;
+    background-image: url(../../assets/images/breadcrumbs-right-icon.png);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    z-index: 9999;
+    top: 5px;
+    right: -32px;
+    width: 20px;
+    height: 20px;
+}
+
+.companies-logos h4 {
+    color: #A07A0D;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.companies-logos img {
+    width: 70%;
+}
+
+.group-companies {
+    padding-top: 42px;
+}
+
+footer .office-info {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer .office-info .col-md-4:nth-child(2) {
+    padding-left: 7%;
+}
+
+footer .office-info h5 {
+    margin-bottom: 15px;
+}
+
+.icon-before-heding {
+    color: #fff;
+    background-color: #A07A0D;
+    padding: 7px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    line-height: 12px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+footer .office-info p,
+footer .office-info a,
+footer .office-info ul li {
+    color: #9B9B9B;
+    margin-bottom: 3px;
+}
+
+footer .office-info ul li {
+    display: inline-block;
+}
+
+.footer-bottom {
+    background-color: #A07A0D;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer-bottom a:not(:first-child) {
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 1px solid #fff;
+}
+
+.home-banner {
+    background-image: url(http://teamworld.in/assets/images/home-banner-1.jpg);
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.home-banner h1 {
+    color: #B18711;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.home-banner h4 {
+    font-size: 24px;
+}
+
+.cust-py-sect {
+    padding: 70px 0;
+}
+
+.our-services {
+    background-image: url(../../assets/images/bg-texture.png);
+    background-size: cover;
+}
+
+h5.sub-heading {
+    color: #A07A0D;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2.heading {
+    color: #0A2653;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+h6.sub-heading {
+    color: #A07A0D;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.service-card {
+    box-shadow: 0px 3px 6px #0000000b;
+    border: none !important;
+    padding: 30px 30px;
+    margin-top: 50px;
+}
+
+.service-card .card-img-top {
+    width: 30%;
+}
+
+.service-card .card-body {
+    padding-left: 6px;
+    padding-right: 6px
+}
+
+.service-card .card-body .read-more {
+    color: #A07A0D;
+    font-weight: 500;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    margin-top: 25px;
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.service-card .card-body .read-more .fa-chevron-right:before {
+    font-size: 13px;
+    padding-left: 9px;
+}
+
+.service-card .card-heading {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.complete-solution .btn {
+    background-color: #A07A0D;
+    border: none;
+    border-radius: 52px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 15px 50px 15px 45px;
+    position: relative;
+    box-shadow: 0px 6px 12px #00000046;
+    width: 80%;
+}
+
+.complete-solution .btn:after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    right: 20px;
+    position: absolute;
+    font-size: 14px;
+    top: 17px;
+}
+
+.complete-solution .btn-blurb img {
+    width: 17%;
+    position: relative;
+    right: -35px;
+    z-index: 1;
+}
+
+.about-us {
+    position: relative;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.about-us .image {
+    position: relative;
+}
+
+.about-us .image img {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 1;
+    color: white;
+    font-size: 20px;
+    height: 100%;
+    text-align: center;
+}
+
+.about-us .play-btn {
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.about-us .play-btn .fa {
+    background-color: #A81C1C;
+    padding: 16px 17px;
+    border-radius: 100%;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.about-us .play-btn p {
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.about-us iframe {
+    width: 100%;
+    height: 517px;
+}
+
+.blurb-content {
+    display: table;
+}
+
+.blurb .img-container,
+.blurb .blurb-content {
+    display: table-cell;
+}
+
+h4.blurb-title {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.blurb .img-container img {
+    border-radius: 100%;
+    box-shadow: 0px 3px 26px #e4e4e4;
+    width: 75%;
+}
+
+.light-blue-bg {
+    background-color: #FAFCFD;
+}
+
+.gray-text {
+    color: #9B9B9B;
+}
+
+.blue-text {
+    color: #0A2653;
+}
+
+.yellow-text {
+    color: #B18711;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/*Service page style*/
+
+.banner-description {
+    font-size: 18px;
+}
+
+.service-banner {
+    /*background-color: #F5F4F4;*/
+    background-size: cover;
+    padding: 30px 0 70px;
+}
+
+.Ocean-Freight {
+    background-image: url(../../assets/images/Ocean-Freight.jpg);
+}
+
+.Air-Freight {
+    background-image: url(../../assets/images/Air-Freight.jpg);
+}
+
+.Transportation {
+    background-image: url(../../assets/images/Transportation.jpg);
+}
+
+.Warehouse {
+    background-image: url(../../assets/images/Warehouse.jpg);
+}
+
+.Project-Cargo-Handling {
+    background-image: url(../../assets/images/Project-Cargo-Handling.jpg);
+}
+
+.customs-clearance {
+    background-image: url(../../assets/images/customs-clearance.jpg);
+}
+
+.banner-cta {
+    position: absolute;
+    bottom: -230px;
+    width: 100%;
+}
+
+.banner-cta .card {
+    background-color: #A07A0D;
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+    color: #fff;
+    margin-top: 50px;
+    padding-top: 35px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-cta .card .card-body {
+    padding-bottom: 12px;
+}
+
+.banner-cta .card .card-img-top {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.banner-cta .card h5 {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: bold;
+}
+
+.service-banner h1 {
+    color: #151515;
+}
+
+.service-overview {
+    padding: 100px 0;
+}
+
+.service-left-menu ul li {
+    background-color: #EFF5FF;
+    padding: 15px 20px;
+    font-weight: 500;
+    width: 72%;
+    font-size: 16px;
+}
+
+.service-left-menu ul li:not(:last-child) {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.service-left-menu ul li a {
+    color: #151515;
+}
+
+.service-left-menu ul li.active {
+    background-color: #0A2653;
+    position: relative;
+    width: 85%;
+    font-size: 17px;
+    /*background-image: url(../../assets/images/chevron-right-solid.svg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 12px;*/
+    /*background-position: right 14px bottom 16px;*/
+}
+
+.service-left-menu ul li.active .fa-chevron-right {
+    color: #fff;
+    position: absolute;
+    right: 17px;
+    top: 20px;
+}
+
+.service-left-menu ul li.active a {
+    color: #fff;
+}
+
+.service-left-menu {
+    margin-bottom: 40px;
+}
+
+.service-features li {
+    padding-bottom: 18px;
+    font-weight: 500;
+}
+
+.service-features li:last-child {
+    padding-bottom: 0;
+}
+
+.service-features li img {
+    width: 4%;
+    margin-right: 10px;
+}
+
+.service-contact-info {
+    width: 71%;
+    border-top: 2px solid #A07A0D;
+}
+
+.service-contact-info .contact-info-title {
+    background-color: #A07A0D;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 0 0 39px 39px;
+    text-align: center;
+    padding: 3px;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-contact-info .contact-info-title img {
+    width: 7%;
+    margin-right: 8px;
+}
+
+.service-contact-info ul {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.service-contact-info li {
+    padding-bottom: 12px;
+    display: flex;
+}
+
+.service-contact-info li p {
+    width: 56px;
+}
+
+.tools {
+    border-bottom: 2px solid #A07A0D;
+}
+
+.tools li {
+    font-size: 19px;
+    position: relative;
+}
+
+.tools li .fa-chevron-right {
+    position: absolute;
+    right: 17px;
+    top: 7px;
+    font-size: 15px;
+}
+
+/*End service page style*/
+
+
+/* management page style */
+
+.banner {
+    background-image: url(../../assets/images/banner-img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+.banner .team-icon {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.team-card {
+    box-shadow: 0px 3px 56px #00000015;
+    padding: 20px 20px;
+    position: relative;
+    border-left: 6px solid #0a2653;
+    margin-bottom: 30px;
+}
+
+.team-card:before {
+    content: '';
+    position: absolute;
+    background-image: url(../../assets/images/profile-icon.png);
+    background-repeat: no-repeat;
+    background-size: 21px;
+    z-index: 9999;
+    position: absolute;
+    top: 21px;
+    left: -13px;
+    width: 30px;
+    height: 20px;
+}
+
+.team-card .member-name {
+    font-size: 19px;
+}
+
+.team-card p {
+    border-top: 1px solid #e8e8e8;
+    padding-top: 10px;
+    margin-top: 13px;
+}
+
+.team-card a {
+    font-weight: 500;
+}
+
+/* End management page style */
+
+
+/* Contact us page style */
+
+.contact-us-banner {
+    background-image: url(../../assets/images/contact-us-banner.png);
+    background-size: cover;
+    padding: 30px 0 190px;
+}
+
+.contact-us-blurb img {
+    width: 4%;
+    margin-right: 15px;
+}
+
+.contact-us-blurb {
+    position: relative;
+}
+
+.contact-us-blurb p {
+    font-size: 15px;
+}
+
+
+/* End contact us page style */
+
+/* Offices page style */
+.gm-style .gm-style-iw-c {
+    min-width: 400px !important;
+    padding: 0;
+}
+
+.gm-style-iw-d {
+    overflow: auto !important;
+}
+
+.gm-ui-hover-effect {
+    top: 0 !important;
+    right: 0 !important;
+    transform: scale(2);
+}
+
+.offices-left-menu ul li {
+    background-color: #EFF5FF;
+    padding: 15px 20px;
+    font-weight: 500;
+    /*width: 72%;*/
+    font-size: 16px;
+}
+
+.offices-left-menu ul li:not(:last-child) {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.offices-left-menu ul li a {
+    color: #151515;
+}
+
+.offices-left-menu ul li.active {
+    background-color: #0A2653;
+    position: relative;
+    font-size: 17px;
+}
+
+.offices-left-menu ul li.active a {
+    color: #fff;
+}
+
+.offices-left-menu .active .collapse li {
+    background-color: #0A2653 !important;
+}
+
+.offices-left-menu .active .fa-chevron-right {
+    font-size: 13px;
+    float: right;
+    margin-top: 7px;
+}
+
+.offices-right-map {
+    padding-left: 60px !important;
+}
+
+.offices-right-map h3 {
+    font-size: 32px;
+}
+
+.india-office-loc .india-map {
+    padding-top: 20px;
+}
+
+.india-office-loc a {
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    cursor: pointer;
+    height: 20px;
+}
+
+.mumbai-link {
+    top: 62%;
+    left: 12%;
+    width: 11%;
+}
+
+.chennai-link {
+    bottom: 16%;
+    left: 41.5%;
+    width: 12%;
+}
+
+.ahmedabad-link {
+    top: 48%;
+    left: 17%;
+    width: 16%;
+}
+
+.mundra-link {
+    top: 47%;
+    left: 3%;
+    width: 10%;
+}
+
+.udaipur-link {
+    top: 41%;
+    left: 21%;
+    width: 10%;
+}
+
+.jodhpur-link {
+    top: 38%;
+    left: 12%;
+    width: 10%;
+}
+
+.new-delhi-link {
+    top: 30%;
+    left: 35%;
+    width: 11%;
+}
+
+.bangalore-link {
+    bottom: 10%;
+    left: 33%;
+    width: 11%;
+}
+
+.tutricorin-link {
+    bottom: 11px;
+    left: 35%;
+    width: 12%;
+}
+
+.surat-link {
+    top: 53%;
+    left: 5%;
+    width: 8%;
+}
+
+.dahej-link {
+    top: 52%;
+    left: 14%;
+    width: 8%;
+}
+
+.kolkata-link {
+    top: 49%;
+    right: 22%;
+    width: 10%;
+}
+
+.ludhiana-link {
+    top: 16%;
+    left: 28%;
+    width: 11%;
+    padding-top: 50px;
+}
+
+.gandhidham-link {
+    top: 44%;
+    left: -1%;
+    width: 14%;
+}
+
+.vadodara-link {
+    top: 44%;
+    left: 13%;
+    width: 12%;
+}
+
+.loc-info-card {
+    border: none !important;
+    box-shadow: 0px 3px 6px #0000003b;
+    max-width: 500px;
+}
+
+.loc-info-card .card-title {
+    font-size: 17px;
+}
+
+.loc-info-card .card-text {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 7px;
+}
+
+.loc-info-card .loc-link {
+    color: #A07A0D;
+    padding-left: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.loc-info-card .loc-link .fa-chevron-right {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.loc-info-card .cnt-details {
+    padding-top: 14px;
+    border-top: 1px solid #ccc;
+    margin-top: 14px;
+}
+
+.loc-info-card .cnt-details p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.loc-info-card .cnt-details a {
+    font-weight: 500;
+    color: #A07A0D !important;
+}
+
+.mah-mumbai-card {
+    top: 52%;
+    left: 29%;
+}
+
+.delhi-card {
+    top: 31%;
+    left: 43%;
+}
+
+.bangalore-card {
+    top: 60%;
+    left: 55%;
+}
+
+.raj-jodhpur-card {
+    top: 31%;
+    left: 28%;
+}
+
+.raj-udaipur-card {
+    top: 32%;
+    left: 35%;
+}
+
+.ludhiana-card {
+    top: 22%;
+    left: 42%;
+}
+
+.guj-gandhidham-card {
+    top: 32%;
+    left: 23%;
+}
+
+.guj-vadodara-card {
+    top: 32%;
+    left: 29%;
+}
+
+.guj-mundra-card {
+    top: 32%;
+    left: 20%;
+}
+
+.guj-ahmd-card {
+    top: 34%;
+    left: 35%;
+}
+
+.guj-surat-card {
+    top: 39%;
+    left: 21%;
+}
+
+.guj-dahej-card {
+    top: 39%;
+    left: 28%;
+}
+
+.guj-kolkata-card {
+    top: 35%;
+    right: -19%;
+}
+
+.guj-chn-card {
+    bottom: -16%;
+    right: 5%;
+}
+
+.guj-tut-card {
+    bottom: -22%;
+    right: 10%;
+}
+
+/* End offices page style */
+
+/* Testimonial page style */
+
+.testimonial-cards {
+    margin-top: 40px;
+}
+
+/*.testimonial-cards .white-box {*/
+/*    box-shadow: 0px 3px 56px #0000001a;*/
+/*    background-color: #fff;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+.quote-icon {
+    width: 16%;
+}
+
+.star-icon {
+    width: 40%;
+    margin-left: 12px;
+}
+
+.logo-icon {
+    width: 75%;
+    padding-bottom: 25px;
+    padding-top: 12px;
+}
+
+.small-logo-icon {
+    width: 30%;
+    padding-bottom: 25px;
+    padding-top: 12px;
+}
+
+.medium-logo-icon {
+    width: 28.5%;
+    padding-bottom: 25px;
+    padding-top: 12px;
+}
+
+/* End testimonial page style */
+
+/* About us style*/
+.ind-about-us {
+    padding: 100px 0;
+}
+
+.ind-about-us .our-usp {
+    padding-top: 40px;
+}
+
+p {
+    font-weight: 500;
+}
+
+.privacy-policy p {
+    font-weight: normal;
+}
+
+.our-usp li {
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-start;
+}
+
+.our-usp li img {
+    width: 18px;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+/* End about us style */
+
+
+/*00000000000000000000000000000000000*/
+
+/* Shipping Glossary */
+.shipping-glossary-arrow {
+    position: absolute;
+    width: 6px;
+    height: 0;
+    z-index: 1;
+    display: none;
+}
+
+.shipping-glossary-arrow:after {
+    position: absolute;
+    content: '';
+    display: block;
+    border-color: transparent transparent #b18711 transparent;
+    border-width: 6px;
+    border-style: solid;
+}
+
+.glossary-box {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: relative;
+}
+
+.glossary-item {
+    flex-grow: 1;
+    flex-basis: 200px;
+    min-height: 52px;
+    padding: 15px;
+    line-height: 20px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.glossary-item:hover {
+    color: #b18711;
+}
+
+.glossary-item.current {
+    color: #b18711;
+}
+
+.glossary-item:hover {
+    color: #b18711;
+}
+
+.glossary-item-description {
+    position: absolute;
+    border-top: 2px solid #b18711;
+    background-color: #f5e8c4;
+    left: 0;
+    right: 0;
+    padding: 20px 35px 15px 15px;
+    z-index: 1;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.glossary-item-description>.icon-cancel {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.glossary-item-description>.icon-cancel:hover {
+    color: #d63246;
+}
+
+/*0000000000000000000000000000000000000000*/
+
+@media (max-width: 767px) {
+    .nav-item.dropdown:hover>.dropdown-menu {
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .gm-style .gm-style-iw-c {
+        min-width: 300px !important;
+    }
+
+    .head-section {
+        display: flex;
+    }
+
+    .navbar-brand {
+        width: 60%;
+    }
+
+    nav {
+        background-color: transparent;
+        padding: 0 !important;
+    }
+
+    nav .nav-link {
+        color: #000 !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    nav .navbar-collapse {
+        position: fixed;
+        background-color: rgb(204, 204, 204);
+        width: 100%;
+        top: 80px;
+        z-index: 99999;
+    }
+
+    .home-banner {
+        padding: 70px 0;
+    }
+
+    .home-banner h1 {
+        font-size: 32px;
+    }
+
+    .home-banner h4 {
+        font-size: 20px;
+    }
+
+    .cust-py-sect {
+        padding: 50px 0;
+    }
+
+    h2.heading {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    h2.heading br {
+        display: none;
+    }
+
+    .service-card {
+        text-align: center;
+    }
+
+    .service-card .card-img-top {
+        margin: 0 auto;
+    }
+
+    .service-card .card-body .read-more {
+        justify-content: center;
+    }
+
+    .about-us .image img {
+        height: 250px;
+    }
+
+    .blurb .img-container img {
+        width: 100%;
+    }
+
+    .blurb .img-container {
+        width: 21%;
+    }
+
+    h4.blurb-title {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    .complex-industry .blurb {
+        padding-left: 40px;
+    }
+
+    .complete-solution .btn-blurb {
+        margin-bottom: 20px;
+    }
+
+    .complete-solution .btn {
+        width: 72%;
+        font-size: 15px;
+    }
+
+    .group-companies {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+
+    footer .office-info .col-md-4:nth-child(2) {
+        padding-left: 15px;
+    }
+
+    footer ul {
+        padding-left: 0;
+    }
+
+    .footer-bottom p {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .breadcrumbs {
+        margin-bottom: 50px;
+    }
+
+    .breadcrumbs ul li {
+        font-size: 15px;
+    }
+
+    .service-banner {
+        padding: 30px 0 70px;
+    }
+
+    .service-banner h1 {
+        font-size: 32px;
+    }
+
+    .banner-description {
+        font-size: 16px;
+    }
+
+    .banner-description br {
+        display: none;
+    }
+
+    .service-overview {
+        padding: 50px 0;
+    }
+
+    .service-left-menu ul li {
+        font-size: 15px;
+        width: 85%;
+    }
+
+    .service-left-menu ul li.active {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .service-contact-info {
+        width: 100%;
+    }
+
+    .service-contact-info ul {
+        padding-left: 45px;
+    }
+
+    .service-contact-info .contact-info-title {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .service-overview .about-service {
+        padding-top: 20px;
+    }
+
+    .service-overview h3 {
+        font-size: 26px;
+    }
+
+    .service-overview .about-service p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .service-features li {
+        font-size: 16px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .tools li {
+        font-size: 17px;
+    }
+
+    .service-features li img {
+        margin-top: 5px;
+    }
+
+    .contact-us-blurb .content h4 {
+        font-size: 22px;
+    }
+
+    .contact-us-blurb p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    .cnt-us-blurb-2,
+    .cnt-us-blurb-3,
+    .cnt-us-blurb-4 {
+        padding-left: 38px;
+        padding-top: 40px;
+    }
+
+    .cnt-us-blurb-2:after,
+    .cnt-us-blurb-3:after,
+    .cnt-us-blurb-4:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 16px;
+        width: 88%;
+        height: 1px;
+        background-color: #ccc;
+        left: 28px;
+        right: 0;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+    }
+
+    .banner p br {
+        display: none;
+    }
+
+    .tools {
+        margin-bottom: 30px;
+    }
+
+    .ind-about-us {
+        padding: 50px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner-cta .col-md-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 28.333333%;
+        flex: 0 0 28.333333%;
+        max-width: 28.333333%;
+    }
+
+    .head-section .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .nav-item.dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+
+    .contact-us-blurb:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 1px;
+        height: 65px;
+        background-color: #ccc;
+    }
+
+    .after-content-none:after {
+        content: none;
+    }
+
+}
+
+@media screen and (device-width: 1440px) {
+    .home-banner {
+        padding: 180px 0;
+    }
+
+    .service-banner {
+        padding: 50px 0 190px;
+    }
+}
+
+@media screen and (min-device-width: 1680px) {
+    body {
+        font-size: 18px !important;
+    }
+
+    .head-section .container {
+        max-width: 100% !important;
+    }
+
+    .container {
+        max-width: 1380px !important;
+    }
+
+    .navbar-nav {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .banner {
+        padding: 80px 0;
+    }
+
+    h1 {
+        font-size: 46px !important;
+    }
+
+    .banner .team-icon {
+        width: 80%;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .home-banner {
+        padding: 220px 0;
+    }
+
+    .banner-description {
+        font-size: 22px;
+    }
+
+    .service-banner {
+        padding: 70px 0 240px;
+    }
+
+    .banner-cta {
+        bottom: -280px;
+    }
+
+    .service-contact-info .contact-info-title {
+        padding: 8px;
+    }
+
+    .service-contact-info li {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-device-width: 1920px) {
+
+    .container {
+        max-width: 1599px !important;
+    }
+
+    .home-banner {
+        padding: 260px 0;
+    }
+
+    .banner-cta .card {
+        padding-top: 60px;
+    }
+
+
+}

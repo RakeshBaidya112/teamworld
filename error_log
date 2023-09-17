@@ -1,0 +1,8 @@
+[20-Apr-2022 04:59:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/circadianca1/public_html/teamworld/index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/circadianca1/public_html/teamworld/index.php on line 140
+[20-Apr-2022 05:01:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/circadianca1/public_html/teamworld/index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/circadianca1/public_html/teamworld/index.php on line 140
